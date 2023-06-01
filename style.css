@@ -354,3 +354,8 @@ button[type="submit"] {
 
 @media (prefers-color-scheme: light) {
 }
+
+.dark {
+  background-color: black;
+  color: antiquewhite;
+}
