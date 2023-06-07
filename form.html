@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Quiz App - Form</title>
+    <script defer src="./form.js"></script>
+  </head>
+  <body>
+    <header id="main-header">
+      <nav>
+        <h1>Quiz App</h1>
+      </nav>
+    </header>
+
+    <form class="form-division" data-js="form-data">
+      
+        <div class="question-division">
+          <label for="question"><h3>Your Question:</h3></label>
+          <textarea class="length1"  maxlength="150" data-js="question-textarea" name="question" id="question" rows="06" columns="100" 
+          style="width: 60%"></textarea><br>
+          
+        <p id="result">0/150</p> 
+      
+        </div>
+        <div class="answer-division">
+          <label for="answer"><h3>Your Answer:</h3></label>
+          <textarea  class="length1" maxlength="150" name="answer" data-js="question-textarea" id="answer" rows="06" columns="100" style="width: 60%"></textarea><br>
+          <p id="result1">0/150</p> 
+        </div>
+
+        <div class="tag-division">
+            <label for="tag"><h3>Tag:</h3></label>
+            <input name="tag" data-js="question-textarea" type="text" id="tag" style="width: 60%"></input>
+          </div>
+        <div class="form-submit-button-division" >
+          <button data-js="form-submit-button-data" class="form-submit-button" type="submit
+          ">Submit</button>
+        </div>
+
+    </form>
+      <ul class="dis-card" data-js="display-card"></ul>
+
+    <footer class="footer">
+      <nav>
+        <ul>
+          <li>
+            <a href="home.html" class="footer-list"
+              ><i class="fa-sharp fa-solid fa-house"></i
+            ></a>
+          </li>
+          <li>
+            <a href="bookmark.html" class="footer-list"
+              ><i class="fa-sharp fa-solid fa-bookmark"></i
+            ></a>
+          </li>
+          <li>
+            <a href="form.html" class="footer-list"
+              ><i class="fa-sharp fa-solid fa-circle-plus"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="profile.html" class="footer-list"
+              ><i class="fa-sharp fa-solid fa-user"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

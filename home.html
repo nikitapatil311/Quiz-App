@@ -18,14 +18,18 @@
       </nav>
     </header>
 
-    <main>
+    <main data-js="main-head">
       <section id="section1">
-        <a href="bookmark.html"> <i class="fa-regular fa-bookmark"></i></a>
+        <a>
+          <i
+            class="fas fa-sharp fa-solid fa-bookmark"
+            data-js="selected-bookmark"
+          ></i>
+        </a>
         <div id="div1">
-          <h2>Where is Disney's European theme park located?</h2>
-
-          <button type="submit">Show Answer</button>
-          <p id="answer">Paris, France</p>
+          <h5>Where is Disney's European theme park located?</h5>
+          <button data-js="submit-answer" type="submit">Show Answer</button>
+          <p id="answer"></p>
         </div>
         <ul>
           <button class="button-list">
@@ -41,12 +45,16 @@
       </section>
 
       <section id="section2">
-        <a href="bookmark.html"> <i class="fa-regular fa-bookmark"></i></a>
+        <a>
+          <i
+            class="fas fa-sharp fa-solid fa-bookmark"
+            data-js="selected-bookmark"
+          ></i
+        ></a>
         <div id="div2">
-          <h2>Who was the first Disney princess?</h2>
-
-          <button type="submit">Show Answer</button>
-          <p id="answer2">Snow White</p>
+          <h5>Who was the first Disney princess?</h5>
+          <button data-js="submit-answer" type="submit">Show Answer</button>
+          <p id="answer2"></p>
         </div>
 
         <ul>
@@ -65,10 +73,10 @@
       <section id="section3">
         <a href="bookmark.html"> <i class="fa-regular fa-bookmark"></i></a>
         <div id="div3">
-          <h2>What color are Mickey Mouse's shoes?</h2>
+          <h5>What color are Mickey Mouse's shoes?</h5>
 
-          <button type="submit">Show Answer</button>
-          <p id="answer3">Yellow</p>
+          <button data-js="submit-answer" type="submit">Show Answer</button>
+          <p id="answer3"></p>
         </div>
         <ul>
           <button class="button-list">
@@ -86,10 +94,10 @@
       <section id="section4">
         <a href="bookmark.html"> <i class="fa-regular fa-bookmark"></i></a>
         <div id="div4">
-          <h2>What year was Cinderella released?</h2>
+          <h5>What year was Cinderella released?</h5>
 
-          <button type="submit">Show Answer</button>
-          <p id="answer4">1950</p>
+          <button data-js="submit-answer" type="submit">Show Answer</button>
+          <p id="answer4"></p>
         </div>
         <ul>
           <button class="button-list">
@@ -107,10 +115,10 @@
       <section id="section5">
         <a href="bookmark.html"> <i class="fa-regular fa-bookmark"></i></a>
         <div id="div5">
-          <h2>Who created Tom and Jerry?</h2>
+          <h5>Who created Tom and Jerry?</h5>
 
-          <button type="submit">Show Answer</button>
-          <p id="answer5">Hanna and Barbera</p>
+          <button data-js="submit-answer" type="submit">Show Answer</button>
+          <p id="answer5"></p>
         </div>
         <ul>
           <button class="button-list">
@@ -136,6 +144,11 @@
             <li>
               <a href="bookmark.html" class="footer-list"
                 ><i class="fa-sharp fa-solid fa-bookmark"></i
+              ></a>
+            </li>
+            <li>
+              <a href="form.html" class="footer-list"
+                ><i class="fa-sharp fa-solid fa-circle-plus"></i
               ></a>
             </li>
             <li>
